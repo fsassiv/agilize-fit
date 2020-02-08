@@ -1,13 +1,33 @@
 .footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
+  background-color: #efefef;
+  padding: unset;
+  padding: 1rem 0;
 
-  &-icon {
-    width: 2rem;
-    height: 2rem;
-    background-color: white;
-    border: 1px solid gray;
-    border-radius: 2rem;
+  & li {
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
+    list-style: none;
+    padding: unset;
+    cursor: pointer;
+    
+    p {
+      margin: unset;
+      margin-top: 0.5rem;
+      font-weight: bold;
+    }
+
+    & .icon {
+      width: 2rem;
+      height: 2rem;
+      background-color: white;
+      border: 1px solid gray;
+      border-radius: 2rem;
+    }
   }
+
 }
