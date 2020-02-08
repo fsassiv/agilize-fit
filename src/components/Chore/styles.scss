@@ -1,0 +1,41 @@
+.chore {
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-pack: justify;
+  justify-content: space-between;
+  -webkit-box-align: center;
+  align-items: center;
+  list-style: none;
+  padding: 5px;
+  height: 60px;
+  border-radius: 4px;
+  position: relative;
+  margin-bottom: 5px;
+  color: grey;
+  &__label {
+    position: absolute;
+    left: 10%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+  }
+  &__warning {
+    position: absolute;
+    right: 20%;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+    margin: 0;
+    padding: 4px;
+    border-radius: 4px;
+    background-color: green;
+    color: white;
+  }
+  &.open {
+    background-color: yellow;
+  }
+  svg {
+    height: 60%;
+  }
+}

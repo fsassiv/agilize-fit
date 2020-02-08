@@ -8,7 +8,7 @@ function App() {
   return (
     <>
       <Header />
-      <Chore />
+      <Chore status="open" label="Teste" value="20" />
       <Footer />
     </>
   );
