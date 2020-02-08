@@ -1,13 +1,7 @@
 import React from "react";
 
-import Day from "../Day";
-
 const Chore = ({}) => {
-  return (
-    <li className="chore">
-      <Day />
-    </li>
-  );
+  return <li className="chore"></li>;
 };
 
 export default Chore;
