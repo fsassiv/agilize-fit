@@ -1,0 +1,13 @@
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  &-icon {
+    width: 2rem;
+    height: 2rem;
+    background-color: white;
+    border: 1px solid gray;
+    border-radius: 2rem;
+  }
+}
